@@ -2,22 +2,24 @@ package com.csc205.project2;
 
 public class Cube extends Sphere{
 
-    public Cube(double length) {
-        super(length);
+    double width;
+
+    public Cube(double width) {
+        super(width);
     }
 
     double surfaceArea() {
-        return 6.0*radius*radius;
+        return 6.0*width*width;
     }
 
     double volume() {
-        return radius*radius*radius;
+        return width*width*width;
     }
 
     @Override
     public String toString() {
         final StringBuilder sb = new StringBuilder("Cube {");
-        sb.append("radius = ").append(radius);
+        sb.append("width = ").append(radius);
         sb.append(", surface area = ").append(surfaceArea());
         sb.append(", volume = ").append(volume());
         sb.append('}');
