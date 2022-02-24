@@ -17,9 +17,9 @@ public class Cube extends Sphere{
     @Override
     public String toString() {
         final StringBuilder sb = new StringBuilder("Cube {");
-        sb.append("radius=").append(radius);
-        sb.append(", surface area=").append(surfaceArea());
-        sb.append(", volume=").append(volume());
+        sb.append("radius = ").append(radius);
+        sb.append(", surface area = ").append(surfaceArea());
+        sb.append(", volume = ").append(volume());
         sb.append('}');
         return sb.toString();
     }
