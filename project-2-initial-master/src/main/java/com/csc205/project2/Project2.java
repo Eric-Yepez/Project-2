@@ -36,11 +36,12 @@ public class Project2 {
         Sphere sphere = new Sphere( 5.0);
         Cube cube = new Cube(4.0);
         Cylinder cylinder = new Cylinder(4.0,5.0);
+        RectangularPrism rectangularPrism = new RectangularPrism(9.0, 5.0, 6.0);
 
         System.out.println(sphere);
         System.out.println(cube);
         System.out.println(cylinder);
+        System.out.println(rectangularPrism);
     }
-
 }
 

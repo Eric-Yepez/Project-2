@@ -1,18 +1,21 @@
 package com.csc205.project2;
 
-public class Cube extends Sphere{
+public class Cube extends Sphere {
 
     double width;
 
     public Cube(double width) {
+
         super(width);
     }
 
     double surfaceArea() {
+
         return 6.0*width*width;
     }
 
     double volume() {
+
         return width*width*width;
     }
 

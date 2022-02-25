@@ -15,22 +15,27 @@ public class Cylinder {
     }
 
     public void setRadius(double radius) {
+
         this.radius = radius;
     }
 
     public double getHeight() {
+
         return height;
     }
 
     public void setHeight(double height) {
+
         this.height = height;
     }
 
     double surfaceArea() {
+
         return 2.0*22/7*radius*(radius + height);
     }
 
     double volume() {
+
         return 22/7*radius*radius*height;
     }
 

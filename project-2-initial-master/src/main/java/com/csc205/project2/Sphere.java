@@ -10,18 +10,22 @@ public class Sphere {
     }
 
     public double getRadius() {
+
         return radius;
     }
 
     public void setRadius(double radius) {
+
         this.radius = radius;
     }
 
     double surfaceArea() {
+
         return 22.0*4.0;
     }
 
     double volume() {
+
         return 4.0/3.0*22.0/7.0*radius*radius*radius;
     }
 
